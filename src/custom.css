@@ -1,0 +1,1281 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+
+
+
+:root {
+
+  --ifm-color-primary: none ;
+  --ifm-color-primary-dark: rgb(33, 175, 144);
+  --ifm-color-primary-darker: rgb(31, 165, 136);
+  --ifm-color-primary-darkest: rgb(26, 136, 112);
+  --ifm-color-primary-light: rgb(70, 203, 174);
+  --ifm-color-primary-lighter: rgb(102, 212, 189);
+  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-code-font-size: 95%;
+
+}
+
+a {
+  color: black;
+
+  text-decoration: none;
+}
+.nav1 {
+}
+.leftside {
+display: inline-block;
+float: left;
+width: 100%;
+
+
+}
+
+.rightside  {
+display: block;
+float: right;
+margin-right: 40px;
+margin-top: -35px;
+}
+
+
+
+
+.logonav {
+  width: 179px;
+  height: 42px;
+  margin-top: 320px;
+  margin-left: 20px;
+
+}
+
+
+
+.icontheme {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+margin-left: 15px;
+
+  display: inline-block;
+
+
+
+
+}
+
+img.icontheme {
+
+}
+
+
+
+
+main .wrapper1 {
+padding: 0 max(1rem, calc(30% - 412px));
+
+
+}
+
+ .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+.navbar {
+ background-color: transparent !important;
+ box-shadow: none;
+ position: relative;
+}
+
+
+
+
+ html[data-theme='light'] footer.foot1 {
+
+color: black;
+}
+
+
+ footer.foot2 {
+
+background: linear-gradient(to top, #edf5fb, #fff);
+
+}
+
+
+
+ footer.foot2 {
+background: linear-gradient(to top, #071118, #162e3f);
+background-repeat: no-repeat;
+-webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+div.textSh1 {
+  text-align: center;
+}
+
+ div.textSh1 > h1{
+  font-size: 50px;
+   background: linear-gradient(45deg, #eda6a7 33%, #9cb4f1 66%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+div.textSh1 > p {
+  font-size: 25px ;
+  color: #787d80;
+
+}
+
+div.textSh2 {
+  text-align: left;
+  display: flex;
+}
+
+div.textSh2 > h1{
+  font-size: 50px;
+   background: linear-gradient(45deg, #eda6a7 33%, #9cb4f1 66%);
+  -webkit-background-clip: text;
+  margin-left: 100px;
+  padding-left: 30px; padding-right: 30px;
+  -webkit-text-fill-color: transparent;
+}
+
+.hefv {
+  text-align: left;
+  width: 60%;
+  display: inherit;
+  font-weight: bold;
+}
+
+h1.hefv {
+  background: linear-gradient(45deg, #eda6a7 33%, #9cb4f1 66%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-size: 56px;
+}
+p.hefv {
+  color: black;
+}
+img.ang1 {
+
+margin-left: 300px;
+position: relative;
+width: 250px;
+height: 250px;
+}
+
+
+div.block2 {
+  margin-top: 170px;
+  height: 500px;
+}
+
+div.col.kek1 {
+ border: 1px solid var(--ifm-toc-border-color);
+    color: var(--ifm-font-color-base);
+    cursor: pointer;
+    border-radius: 16px;
+    text-decoration: none !important;
+
+  box-shadow: 0px 0px 99px rgba(118,118,118,0.16);
+    padding: 1rem 0 !important;
+
+}
+
+
+div.col.kek2 {
+
+  column-gap: 20px;
+  margin: 0px auto;
+
+  border-radius: 25px;
+}
+
+div.block3 {
+  margin-top: 170px;
+}
+
+div.row.kek2 {
+
+  border-radius: 25px;
+  box-shadow: 0px 0px 99px rgba(118,118,118,0.16);
+}
+
+div.textSh2 > p {
+  font-size: 20px ;
+  color: #787d80;
+
+}
+
+
+
+
+header .grid_label {
+margin-left: 20px;
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+  grid-template-rows: 1fr;
+padding: 0 15rem 4rem;
+margin-top: 620px;
+position: absolute;
+
+}
+
+header .box2 > img{
+  width: 480px;
+  height: 393px;
+  justify-content: center;
+  align-items: center;
+
+  top: 25%;
+  margin: 0 auto;
+  margin-left: 0px;
+  margin-top: -70px;
+
+
+}
+ header .box1 > h1 {
+
+font-size: 57px;
+text-align: left;
+   background: -webkit-linear-gradient(45deg, #34708d 66%, #46729b 33%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  line-height: 62px;
+}
+
+
+ header .box1 > h1 {
+
+font-size: 57px;
+text-align: left;
+   background: -webkit-linear-gradient(45deg, #F0A5A4 33%, #9BB3F2 66%);
+   background: -webkit-linear(45deg, #F0A5A4 33%, #9BB3F2 66%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 0px #00000000;
+  line-height: 62px;
+}
+
+ header .box1 > p {
+  display: flex;
+  font-size: 25px;
+  text-align: left;
+  font-family: "Avenir Next" !important;
+  color: #fff;
+
+
+}
+ header .box1 > p {
+  font-family: "Avenir Next" !important;
+  display: flex;
+  font-size: 25px;
+  text-align: left;
+  color: #002030;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+header .imgSet {
+  display: inline-block;
+  float: left;
+}
+
+ header .imgSet {
+ filter: invert(0.9);
+}
+header .imgSet > a > img {
+  width: 3rem;
+  height: 3rem;
+  margin-left: 10px;
+
+
+}
+
+div.textSh3 > h1{
+  font-size: 50px;
+   background: linear-gradient(45deg, #eda6a7 33%, #9cb4f1 66%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 0 8rem 0;
+}
+
+div.textSh3 > p {
+  font-size: 25px ;
+  color: #787d80;
+  font-family: "Avenir Next" !important;
+  padding: 0 8rem 0rem;
+
+}
+
+footer .grid_footer {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+  grid-template-rows: 1fr;
+  font-family: "Avenir Next" !important;
+
+
+}
+
+footer .foot1 {
+padding: 25px 32px 3px;
+margin-top: -10px;
+line-height: 1.7;
+}
+
+footer .foot1 > img {
+  width: 240px;
+  height: 55px;
+  margin-left: -10px;
+
+
+}
+
+
+
+
+
+
+
+.dev-dash {
+    background: var(--dev-dash-bg);
+}
+
+
+
+footer .foot2 {
+  text-align: left;
+  margin: 0px auto;
+  padding: 25px 32px 3px;
+}
+
+footer .foot3 {
+  text-align: left;
+    margin: 0px auto;
+    padding: 25px 32px 3px;
+}
+
+footer .foot4 {
+  text-align: left;
+    margin: 0px auto;
+    padding: 25px 32px 3px;
+}
+
+footer .foot2 > ul {
+  list-style-type: none;
+}
+
+footer .foot3 > ul {
+  list-style-type: none;
+}
+
+footer .foot4 > ul {
+  list-style-type: none;
+}
+
+footer .foot5 {
+  text-align: right;
+  padding: 25px 32px 3px;
+  line-height: 2;
+}
+
+footer li {
+  line-height: 2.5;
+}
+
+footer b {
+  text-align: center;
+}
+
+ footer .imgconf > a > img  {
+  width: 30px;
+  height: 30px;
+  margin-left: 25px;
+  border-radius: 10px;
+}
+
+
+ footer .imgconf > a > img{
+  width: 30px;
+  height: 30px;
+  margin-left: 25px;
+  filter: invert(1);
+   border-radius: 10px;
+}
+
+ footer li {
+  color: #C2CAD1;
+}
+
+.lightIconStyle {
+  margin-top: 50px;
+}
+
+
+
+
+
+
+
+/*
+ .toggle_node_modules-\@docusaurus-theme-classic-lib-next-theme-Toggle-styles-module {
+background-image: url(/icons/moon.svg);
+width: 30px;
+height: 30px;
+background-size: 30px;
+margin-right: 10px;
+}
+
+ .toggle_node_modules-\@docusaurus-theme-classic-lib-next-theme-Toggle-styles-module {
+background-image: url(/icons/sun.svg);
+width: 28px;
+height: 33px;
+background-size: 28px;
+margin-right: 10px;
+}*/
+
+main .team_block {
+text-align: center;
+position: relative;
+margin: 0px auto;
+padding: 5rem 7rem 3rem;
+height: 100%;
+}
+
+ main .team_block > h2 {
+  font-size: 40px;
+  color: black;
+line-height: 0;
+  margin-top: 100px;
+}
+
+ main .team_block > h2 {
+  font-size: 40px;
+  line-height: 0;
+  margin-top: 100px;
+  color: white;
+}
+
+main .list_team > h5{
+line-height: 1.7;
+
+}
+
+main .list_team > h6{
+line-height: 1.3;
+
+}
+main .grid_team {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr ;
+padding: 0 3rem 3rem;
+gap: 36px 64px;
+margin-top: 150px;
+
+}
+
+main .list_team > img {
+  width: 153px;
+  height: 153px;
+}
+
+ main .list_team {
+  width: 1fr;
+  height: 1fr;
+  padding: 15px;
+  flex-direction: column;
+  background-color: #E3F3FB;
+  border-radius: 15px;
+  color: black;
+}
+
+ main .list_team {
+  width: 1fr;
+  height: 1fr;
+  padding: 15px;
+  flex-direction: column;
+  background-color: #141b22;
+  border-radius: 15px;
+  color: white;
+}
+
+ main .list_team2 {
+  width: 1fr;
+  height: 1fr;
+  padding: 15px;
+  flex-direction: column;
+  background-color: #E3F3FB;
+  border-radius: 15px;
+  color: black;
+}
+
+ main .list_team2 {
+  width: 1fr;
+  height: 1fr;
+  padding: 15px;
+  flex-direction: column;
+  background-color: #141b22;
+  border-radius: 15px;
+  color: white;
+}
+
+main .list_team > p {
+font-size: 14px;
+}
+
+
+footer .grid_footer_2 {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 1fr 2fr;
+  grid-template-rows: 1fr;
+
+}
+
+
+ main.team_back {
+
+ background: linear-gradient( 360deg, rgba(255,255,255,255), rgba(176,194,236,1));
+ background-repeat: no-repeat;
+-webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+ main.team_back {
+
+ background: linear-gradient(to bottom, #3f5574, #162e3f),  url(./static/team/background2.png);
+ background-repeat: no-repeat;
+-webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+}
+
+main .list_team2 > img {
+  width: 153px;
+  height: 153px;
+}
+main .list_team2 > p {
+font-size: 14px;
+}
+
+main .grid_team_2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-rows: 1fr;
+padding: 0 12rem 3rem;
+gap: 36px 64px;
+}
+
+
+
+.ank1 {
+position: absolute;
+z-index: 0;
+right: 0px;
+top: 20px;
+
+}
+
+.ank2 {
+position: absolute;
+z-index: 0;
+top: 1550px;
+opacity: 0.656;
+}
+
+.ank3 {
+position: absolute;
+z-index: 0;
+top: 200px;
+right: 1100px;
+}
+
+ .ank4 {
+position: absolute;
+top: 2700px;
+
+filter: invert(1);
+z-index: -2;
+opacity: 0.2;
+right: 1080px;
+}
+
+ .ank4 {
+position: absolute;
+top: 2700px;
+z-index: -2;
+
+opacity: 0.2;
+right: 1080px;
+}
+
+ .ank5 {
+position: absolute;
+z-index: -2;
+display: block;
+filter: invert(1);
+top: 3500px;
+opacity: 0.2;
+right: 50px;
+}
+
+ .ank5 {
+position: absolute;
+z-index: -2;
+display: block;
+top: 3500px;
+opacity: 0.2;
+right: 50px;
+}
+
+.grid_footer_2 {
+
+}
+
+.guides {
+    display: grid;
+    padding: 0 8rem 3rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+margin: 0;
+margin-top: 50px;
+    gap: 60px;
+
+}
+
+.guides1 {
+    display: grid;
+    padding: 0 7rem 2rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+
+margin: 0;
+margin-top: 50px;
+    gap: 40px;
+
+}
+
+.guide {
+
+    color: var(--ifm-font-color-base);
+    cursor: pointer;
+    border-radius: 16px;
+    text-decoration: none !important;
+    padding: 5rem 1rem !important;
+    box-shadow: 0px 0px 99px rgba(118,118,118,0.16);
+    position: relative;
+ align-items: center;
+    display: flex;
+
+
+    justify-content: center;
+}
+
+.guide > a > img {
+  width: 340px;
+  height: 340px;
+}
+
+.guide2 {
+
+  color: var(--ifm-font-color-base);
+  cursor: pointer;
+  border-radius: 16px;
+  text-decoration: none !important;
+  padding: 3rem 0 !important;
+  box-shadow: 0px 0px 99px rgba(118,118,118,0.16);
+height: 260px;
+line-height: 1.5;
+}
+
+.guide2 > a > center > img {
+  width: 100px;
+  height: 100px;
+
+}
+
+.guide2 > p > h2 {
+  text-align: center;
+
+}
+
+p.socials {
+padding: 15px;
+align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Avenir Next';
+    text-align: center;
+}
+
+
+
+.guide1 {
+
+    color: var(--ifm-font-color-base);
+    cursor: pointer;
+    border-radius: 16px;
+    text-decoration: none !important;
+    padding: 3rem 0 !important;
+    box-shadow: 0px 0px 99px rgba(118,118,118,0.16);
+
+
+}
+
+.guide1 > p > h3 {
+  font-size: 27px;
+}
+.guide1 > p > h4 {
+  font-size: 24px;
+}
+
+
+.guide1 > .text5 {
+  margin-top: 25px;
+  padding: 0 2rem;
+  font-size: 17px;
+  justify-content: center;
+  text-align: center;
+}
+
+.guide1 > .text6 {
+  margin-top: 25px;
+  padding: 0 2rem;
+  font-size: 17px;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.imgSave { align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.imgSave > img{
+width: 301px;
+
+height: 301px;
+}
+
+
+
+
+
+
+.guide1 > p {
+  align-items: center;
+   justify-content: center;
+   display: flex;
+   text-align: center;
+   margin: 25px;
+
+}
+
+.guide > p {
+
+  align-items: center;
+   justify-content: center;
+   display: flex;
+   text-align: center;
+   margin: 25px;
+}
+
+.guide1 > b {
+  font-size: 25px;
+}
+
+.guide:hover {
+    border-color: var(--ifm-tiles-link-hover-color);
+    color: var(--ifm-font-color-base);
+}
+
+.guide1:hover {
+    border-color: var(--ifm-tiles-link-hover-color);
+    color: var(--ifm-font-color-base);
+}
+
+
+@media (max-width: 668px) {
+    .guides
+    {
+font-family: "Avenir Next" !important;
+        grid-template-rows: 1fr 1fr 1fr ;
+        grid-template-columns: 1fr;
+        padding: 0 2rem 0rem;
+
+    }
+
+
+
+    .guide {
+
+        color: var(--ifm-font-color-base);
+        cursor: pointer;
+        border-radius: 16px;
+        text-decoration: none !important;
+padding: 5rem 0rem !important;
+        box-shadow: 0px 0px 99px rgba(118,118,118,0.16);
+        position: relative;
+     align-items: center;
+        display: flex;
+
+
+        justify-content: center;
+    }
+
+.guide > a > img {
+  width: 280px;
+  height: 300px;
+}
+
+nav .toggle_2i4l {
+      display: block;
+    }
+
+
+
+    footer .grid_footer {
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 0.8fr 0.8fr 0.8fr 0.6fr;
+
+font-family: "Avenir Next" !important;
+    }
+
+    footer .foot1 > img{
+      width: 240px;
+      height: 55px;
+      margin-left: -10px;
+      display: inline-block;
+    }
+
+    footer .foot1 > .ph1{
+      width: 200px;
+      margin-left: 0px;
+
+      display: inline-block;
+    }
+
+    footer .foot2 {
+
+    margin: 0px;
+    padding: 0px;
+    }
+
+    footer .foot3 {
+  margin: 0px;
+    padding: 0px;
+    margin-top: 20px;
+    }
+    footer .foot4 {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 20px;
+}
+
+    footer .foot5 {
+    text-align: left;
+    margin: 20px;
+    padding: 0px;
+
+    }
+
+    footer .foot5 > b  {
+      margin-left: 10px;
+    }
+
+
+
+
+    .ank4  {
+      display: none;
+    }
+    .ank5 {
+      display: none;
+    }
+
+  div  .textSh1  {
+      padding: 25px;
+    }
+   div .textSh1 > h1 {
+      font-size: 38px;
+    }
+    div .textSh1 > p {
+      font-size: 18px;
+    }
+.textSh3 {
+line-height: 1.5;
+
+}
+
+.guide2 > a > center > img {
+  width: 100px;
+  height: 100px;
+
+}
+
+
+    div.textSh3 > h1{
+      text-align: center;
+      font-size: 38px;
+      padding: 0;
+    }
+    div.textSh3 > p{
+      text-align: center;
+      font-size: 18px;
+      padding: 25px;
+
+    }
+
+
+header .grid_label {
+display: grid;
+margin-left: 0px;
+font-family: "Avenir Next" !important;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr ;
+        padding: 0;
+
+}
+
+ header .box1 {
+margin-top: -130px;
+}
+
+.guides1 {
+    display: grid;
+    padding: 0 2rem 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr ;
+
+margin: 0;
+margin-top: 50px;
+    gap: 40px;
+
+}
+
+
+ header .box1 > h1 {
+      text-align: center;
+      font-size: 38px;
+
+    }
+     header .box1 > h1 {
+      text-align: center;
+      font-size: 38px;
+
+      padding: 0;
+    }
+
+
+
+
+ header .box1 > p {
+  font-size: 25px;
+  text-align: center;
+  justify-content: center;
+}
+
+ header .box1 > p {
+  font-size: 25px;
+  text-align: center;
+  justify-content: center;
+}
+
+
+h1.box1 {
+  font-size: 30px;
+}
+
+.box2 > img {
+  display: none;
+}
+
+footer .grid_footer_2 {
+
+grid-template-columns: 1fr;
+grid-template-rows: 1fr 0.8fr 0.8fr 0.8fr 0.6fr;
+
+font-family: "Avenir Next" !important;
+}
+
+  main .grid_team {
+    grid-template-rows: 1fr ;
+        grid-template-columns: 1fr;
+align-items: center;
+justify-content: center;
+font-family: "Avenir Next" !important;
+        padding:  20px;
+  }
+
+  main .grid_team_2 {
+    margin-top: 15px;
+    justify-content: center;
+    gap: 36px 64px;
+    grid-template-rows: 1fr ;
+        grid-template-columns: 1fr;
+
+font-family: "Avenir Next" !important;
+      padding: 0 0;
+  }
+
+
+
+.ank1 {
+      display: none;
+    }
+    .ank2 {
+      display: none;
+    }
+
+    .ank3 {
+      display: none;
+    }
+
+header .imgSet   {
+
+padding-left: 40px;
+margin-left: 30px;
+}
+header .imgSet > img {
+
+  width: 3rem;
+  height: 3rem;
+}
+
+
+
+ header.kek1  {
+  height: 860px;
+ background-repeat: no-repeat;
+-webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+
+
+
+/*  .toggle_node_modules-\@docusaurus-theme-classic-lib-next-theme-Toggle-styles-module {
+background-image: url(/icons/moon.svg);
+width: 30px;
+height: 30px;
+background-size: 30px;
+margin-left: 100px;
+display: flex;
+}
+
+ .toggle_node_modules-\@docusaurus-theme-classic-lib-next-theme-Toggle-styles-module {
+background-image: url(/icons/sun.svg);
+width: 28px;
+height: 33px;
+background-size: 28px;
+margin-left: 100px;
+display: flex;
+}*/
+
+ main .list_team2 {
+  width: 300px;
+}
+
+ main .list_team2 {
+  width: 300px;
+}
+main .guides {
+  margin-top: -20px;
+}
+
+
+
+main .team_block {
+text-align: center;
+position: relative;
+padding: 2rem 3rem 3rem;
+}
+
+main .list_team {
+  width: 300px;
+
+
+}
+
+ main .team_block > h2 {
+  font-size: 36px;
+position: relative;
+
+margin-top: 150px;
+}
+
+ main .team_block > h2  {
+  font-size: 36px;
+  color: white;
+  line-height: 0;
+  margin-top: 150px;
+  line-height: 0;
+}
+
+main .grid_team_2 {
+  grid-template-rows: 1fr ;
+      grid-template-columns: 1fr;
+
+font-family: "Avenir Next" !important;
+    padding: 0 0;
+}
+
+   footer .imgconf > img  {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  padding: 0;
+
+}
+
+
+ footer .imgconf > img  {
+  width: 30px;
+  height: 30px;
+   background-color: #fff;
+   border-radius: 10px;
+
+
+
+}
+
+footer .imgconf {
+ margin-left: -15px;
+}
+}
+
+
+ .navbar__inner {
+  position: sticky;
+
+}
+
+
+
+img.ergo2  {
+ background-image: none;
+width: 301px;
+height: 301px;
+
+
+}
+
+  img.ergo1 {
+display: none;
+width: 301px;
+height: 301px;
+
+}
+
+.ergo1 .kyber  {
+  margint-top: 50px;
+}
+
+ .reddit1 {
+  filter: invert(1);
+}
+
+main p.font1 {
+  font-size: 13px;
+}
+
+.list_team > h3 {
+  font-size: 18px;
+  line-height: 0;
+}
+
+.list_team > p > b {
+  font-size: 13px;
+
+}
+
+.list_team2 > h3 {
+  font-size: 18px;
+  line-height: 0;
+}
+
+.list_team2 > p > b {
+  font-size: 13px;
+
+}
+
+
+@media (min-width: 1880px) {
+  header .grid_label {
+
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    grid-template-rows: 1fr;
+    padding: 0 10rem 3rem;
+  }
+   header .box1 > h1 {
+    line-height: 80px;
+    font-size: 72px;
+  }
+   header .box1 > h1 {
+    line-height: 80px;
+    font-size: 72px;
+  }
+  header .box2 > img{
+    margin-left: 60px;
+    width: 35rem;
+
+  }
+
+   header .box1 > p {
+
+    font-size: 35px;
+
+
+
+  }
+   header .box1 > p {
+
+    font-size: 35px;
+
+
+
+  }
+
+ main .list_team2 {
+  width: 80%;
+  margin-left: 30px;
+}
+
+ main .list_team2 {
+  width: 80%;
+  margin-left: 30px;
+}
+
+}

@@ -1,0 +1,152 @@
+.App {
+  text-align: center;
+}
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url("AvenirNextLTPro-Regular.otf"); /* File to be stored at your site */
+  }
+
+
+
+
+.App-header {
+
+  background-repeat: no-repeat;
+ -webkit-background-size: cover;
+         -moz-background-size: cover;
+         -o-background-size: cover;
+         background-size: cover;
+           height: 1420px;
+margin-top: -300px;
+}
+
+.mainpage {
+  margin-top: -40px;
+  height: 2650px;
+}
+
+.footer_bat {
+  background-repeat: no-repeat;
+ -webkit-background-size: cover;
+         -moz-background-size: cover;
+         -o-background-size: cover;
+         background-size: cover;
+    color: white;
+    text-decoration: none;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+
+/*dropdown*/
+.dropdown {
+width: 35px;
+height: 35px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.icon_drop {
+  width: 30px;
+  height: 30px;
+}
+
+.icon_drop .dropdown-btn {
+
+  background-color: white;
+  border: none;
+  color: #2B4A5B;
+  text-align: center;
+  text-decoration: none;
+
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+
+  margin: 10px;
+  font-weight: 500;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+
+.dropdown .dropdown-content{
+  width: 195px;
+
+  position: absolute;
+  padding: 5px;
+  background-color: #2B4A5B;
+  color: #C2CAD1;
+  text-decoration: none;
+  text-align: start;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 15px;
+  margin-left: -170px;
+  margin-top: 10px;
+  z-index: 5;
+
+}
+
+.dropdown-item {
+  padding: 10px;
+  margin-top: 5px;
+  margin-left: 2px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  height: 25px;
+
+
+}
+
+
+
+.dropdown-item:hover {
+  color: white;
+}
+
+
+
+
+.imgwrapper {
+  display: flex;
+  justify-content: center;
+}
+
+#navText{
+  font-size: 9px;
+}
+
+.selected{
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #4ADE80;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+}
+.nav-icon{
+  margin-right: 10px;
+}
+
+@media (max-width: 668px) {
+  .mainpage {
+
+    height: 6350px;
+  }
+
+  .dropdown {
+    display: none;
+  }
+}
